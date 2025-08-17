@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Proyecto</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fuente Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Iconos Material Design -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2 class="brand">👕 Mi Tienda</h2>
+    <nav>
+      <ul>
+        <li><span class="material-icons">home</span> Inicio</li>
+        <li><span class="material-icons">shopping_bag</span> Productos</li>
+        <li><span class="material-icons">campaign</span> Anuncios</li>
+        <li><span class="material-icons">trending_up</span> Tendencias</li>
+        <li><span class="material-icons">settings</span> Configuración</li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="search-bar">
+      <span class="material-icons">search</span>
+      <input type="text" placeholder="Buscar...">
+    </div>
+    <div class="user-info">
+      <span class="material-icons">notifications</span>
+      <span class="material-icons">account_circle</span>
+      <span class="username">Usuario</span>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="main">
+    <!-- Sección proyectos -->
+    <section class="projects">
+      <h3>Proyectos</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>Catálogo de Verano</h4>
+          <p>Ropa ligera y fresca para la temporada.</p>
+          <button>Ver más</button>
+        </div>
+        <div class="project-card">
+          <h4>Colección Formal</h4>
+          <p>Camisas y trajes para oficina.</p>
+          <button>Ver más</button>
+        </div>
+        <div class="project-card">
+          <h4>Deportivo</h4>
+          <p>Ropa cómoda para hacer ejercicio.</p>
+          <button>Ver más</button>
+        </div>
+        <div class="project-card">
+          <h4>Ofertas Flash</h4>
+          <p>Descuentos limitados por tiempo.</p>
+          <button>Ver más</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección lateral: anuncios y tendencias -->
+    <div class="sidebar-right">
+      <section class="announcements">
+        <h3>Anuncios</h3>
+        <ul>
+          <li>Nueva colección de invierno 🚀</li>
+          <li>Envío gratis en pedidos mayores a $50</li>
+          <li>Descuentos especiales este fin de semana</li>
+        </ul>
+      </section>
+
+      <section class="trending">
+        <h3>Tendencias</h3>
+        <ul>
+          <li>#ropaurbana</li>
+          <li>#modasostenible</li>
+          <li>#ofertas2025</li>
+          <li>#minimalismo</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
